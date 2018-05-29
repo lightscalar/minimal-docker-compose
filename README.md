@@ -24,8 +24,9 @@ docker-compose up
 ```
 
 You should be able to browse over to [127.0.0.1:3000](http://127.0.0.1:3000) to
-see the output of the webserver. Note that beyond linking to the Mongo
-container and opening a connection, we do nothing with the Mongo database. 
+see the output of the Flask server. Note that beyond linking to the Mongo
+container and opening a client connection, we do nothing with the Mongo
+database. 
 
 The MongoDB is stored on your local machine in the `data/db` directory. This location is
 specified in the `docker-compose.yml` file. Note the MongoDB is running on its default 
