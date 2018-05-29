@@ -27,4 +27,6 @@ webserver. Note that beyond linking to the mongo container and opening a
 connection, we do nothing with the Mongo database. 
 
 The MongoDB is stored on your local machine in the `data/db` directory. This location is
-specified in the `docker-compose.yml` file. 
+specified in the `docker-compose.yml` file. Note the MongoDB is running on its default 
+address. If you have another Mongo instance running on your machine, there will be a 
+conflict and things will go badly.
