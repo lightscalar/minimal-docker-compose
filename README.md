@@ -8,7 +8,8 @@ If you don't already have it, download [Docker](https://www.docker.com/get-docke
 
 ## Build the Docker image
 
-Once that's installed and running, navigate to this directory and run the following:
+Once that's installed and running, navigate to this repository's location and
+run the following:
 
 ```unix
 docker-compose build
