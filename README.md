@@ -2,11 +2,19 @@
 
 Basic working example that links a flask webserver to a mongo database instance.
 
+## First, Get Docker
+
+If you don't already have it, download [Docker](https://www.docker.com/get-docker).
+
+## Build the Docker image
+
 To get this running, install Docker on your machine, and then run:
 
 ```unix
 docker-compose build
 ```
+
+## Run the Docker image
 
 To run the docker image, simply run:
 
