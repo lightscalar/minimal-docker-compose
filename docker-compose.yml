@@ -7,7 +7,7 @@ services:
     ports:
       - "3000:3000"
     links:
-      - mongodb-1
+      - mongo
     volumes:
       - ./data:/data
   mongo:
