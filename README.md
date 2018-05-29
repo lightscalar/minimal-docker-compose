@@ -1,6 +1,6 @@
 # Minimal Docker Compose Example
 
-Basic working example that links a flask webserver to a mongo database instance.
+Basic working example that links a flask webserver to a Mongo database instance.
 
 ## First, Get Docker
 
@@ -23,7 +23,7 @@ docker-compose up
 ```
 
 You should be able to browse over to `127.0.0.1:3000` to see the output of the
-webserver. Note that beyond linking to the mongo container and opening a
+webserver. Note that beyond linking to the Mongo container and opening a
 connection, we do nothing with the Mongo database. 
 
 The MongoDB is stored on your local machine in the `data/db` directory. This location is
